@@ -1,7 +1,7 @@
 var ip = require('ip');
 var PeerServer = require('peer').PeerServer;
 
-var port = 9000;
+var port = 3003;
 var server = new PeerServer({port: port});
 
 server.on('connection', function (id) {
